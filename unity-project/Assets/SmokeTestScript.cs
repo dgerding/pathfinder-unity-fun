@@ -25,7 +25,7 @@ public class SmokeTestScript : MonoBehaviour
 
         var canvas = new PFCanvas(gState.GetFontContext(), new Vector2(10, 10));
         // We should be able to pass empty strings.
-        canvas.FillText("", new Vector2(0, 0));
+        canvas.FillText("hi", new Vector2(0, 0));
 
         ranTests = true;
         print("Successfully ran smoke tests.");
